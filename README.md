@@ -1,5 +1,5 @@
 # Shirisha_Ecommerce_Order_Engine_Hackathon
-# 🛒 Distributed E-Commerce Order Engine
+# Distributed E-Commerce Order Engine
 
 ---
 
@@ -103,30 +103,8 @@ Each service class represents a conceptual microservice. In production, each cou
 
 ---
 
-## ▶️ How to Run the Project
-
-### Prerequisites
-- **Java JDK 11 or higher** must be installed
-- Verify with: `java -version`
-
-### Option 1 — Using the run script (recommended)
-
-```bash
-chmod +x run.sh
-./run.sh
-```
-
-### Option 2 — Manual compile and run
-
-```bash
-# From the project root directory
-mkdir -p out
-find src -name "*.java" > sources.txt
-javac -d out @sources.txt
-java -cp out com.ecommerce.Main
-```
-
-### Option 3 — Using an IDE (IntelliJ / Eclipse / VS Code)
+## How to Run the Project
+### Using an IDE (IntelliJ / Eclipse / VS Code)
 
 1. Open the project root folder in your IDE
 2. Mark `src/main/java` as the **Sources Root**
@@ -169,6 +147,6 @@ java -cp out com.ecommerce.Main
 
 ---
 
-## 👤 Author
+## Author
 
 **Repository:** `Shirisha_Ecommerce_Order_Engine_Hackathon`
